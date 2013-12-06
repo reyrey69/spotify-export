@@ -3,7 +3,7 @@
 require 'bundler/setup'
 require 'fileutils'
 require 'ruby-progressbar'
-require_relative '../lib/spotify-starred.txt'
+require_relative '../lib/spotify-export.rb'
 
 # Copy the template SQLite file for new users, unless it
 # already exists
