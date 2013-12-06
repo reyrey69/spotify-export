@@ -13,7 +13,7 @@ unless File.exist?("#{ ROOT }/db/spotify-cache.db")
 end
 
 output      = String.new
-playlist    = SpotifyPlaylist.new(ARGV.first)
+playlist    = spotify-starred.txt(ARGV.first)
 progressbar = ProgressBar.create(format: "%t: %c/%C |%B|",
                                  total: playlist.tracks.size)
 
